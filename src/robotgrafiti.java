@@ -34,6 +34,11 @@ public static void main(String[] args) {
    for(int i=0; i<4; i++) {
 	   ned.move(30);
 	   ned.turn(90);
+	   ned.move(30);
+	   ned.move(30);
+	   ned.turn(90);
+	   //ned.move(20000);
+	   
    }
    ned.setPenColor(1345, 46, 4);
    ned.turn(-275);
@@ -42,7 +47,40 @@ public static void main(String[] args) {
    ned.setRandomPenColor();
    ned.move(45);
    ned.turn(270);
+   ned.move(-20);
+   ned.turn(-90);
+   ned.move(35);
+   ned.turn(-90);
+   ned.move(15);
+   ned.turn(90);
+   ned.move(60);
+   //ned.move(150);
+   ned.penDown();
+   ned.turn(-180);
+   ned.move(100);
+   ned.penUp();
+   ned.turn(90);
+   ned.move(5);
+   ned.move(50);
+   ned.turn(90);
+   ned.move(60);
+   ned.turn(-90);
+   ned.penDown();
+   ned.move(30);
+   for(int i=0; i<4; i++) {
+	  ned.turn(90);
+	  ned.move(30);
+   }
+   ned.turn(90);
+   ned.move(45);
+   ned.turn(-90);
+   ned.move(45);
+   ned.turn(90);
+   ned.move(60);
    
-	   
+   
+   }
+   
+   
+  
 }   
-}
